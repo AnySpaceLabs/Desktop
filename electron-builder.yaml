@@ -1,0 +1,12 @@
+appId: "com.anyspace.desktop"
+productName: "TechWar Desktop"
+copyright: "Copyright (c) 2024 TechWar"
+win:
+  target: ["dir", "portable", "zip"]
+  icon: "public/icon.ico"
+linux:
+  target: ["dir", "appimage", "zip"]
+  icon: "public/icon.png"
+mac:
+  target: ["dir", "dmg", "zip"]
+  icon: "public/icon.icns" 
